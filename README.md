@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+ Gravity Orbits :>
 
-## Getting Started
+A personal project I built because I admire space and enjoy learning about how the universe works.
 
-First, run the development server:
+Gravity Orbits combines a gravity simulator with a solar system demo, planet descriptions, information about moons, fun facts, and explanations of quantum physics concepts.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+?  Features
 
-Open [http://localhost:3001/](hhttp://localhost:3001/) with your browser to see the result.
+- Gravity Simulator:  Explore gravity and orbital motion visually.
+- Solar System Demo : Discover our solar system and its planets.
+- Planet Profiles : Learn about each planet and its characteristics.
+- Moons : Explore moon counts and names for each planet.
+- Fun Facts : Discover interesting details about our solar system.
+- Quantum Physics : Learn about concepts describing the microscopic universe.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+? Why I Built This
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+I created this project out of my love for space. Planets, moons, gravity, and the mysteries of the universe fascinate me, and I wanted to turn that curiosity into something I could build and share.
 
-## Learn More
+This is also a personal learning project where I can develop my programming skills while exploring a subject I enjoy.
 
-To learn more about Next.js, take a look at the following resources:
+?  Technologies and Tools
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+? Application
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Next.js 16.3.4 : Web application framework.
+- React 19.2.8 :Component-based user interfaces.
+- React DOM 19.2.8 : Rendering React components in the browser.
+- TypeScript 5 : JavaScript with static type checking.
 
-## Deploy on Vercel
+? Styling
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Tailwind CSS 4 : Utility-based styling.
+- tailwindcss/postcss : Tailwind CSS integration with PostCSS.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+? Development
+
+- ESLint 9 :  Code linting.
+- eslint-config-next : Next.js linting configuration.
+- TypeScript definitions : Type support for Node.js, React, and React DOM.
+- npm : Dependency management and project scripts.
+- Git and GitHub : Version control and repository hosting.
+- Visual Studio Code : Code editor.
+
+? Run Locally
+
+Install Node.js and npm, then open a terminal in the project folder containing `package.json`.
+
+Install dependencies:
+
+    npm install
+
+Start the development server:
+
+    npm run dev
+
+Open hhttp://localhost:3001/ in your browser.
+
+?  Available Commands
+
+| Command | Purpose |
+| --- | --- |
+| `npm run dev` | Start the development server |
+| `npm run build` | Create a production build |
+| `npm start` | Serve the production build |
+| `npm run lint` | Run ESLint |
+
+ ? Educational Scope
+
+This project is intended for exploration and learning. Simulations and explanations may simplify physical behavior.
+
+Planetary orbits are primarily described by classical gravity, while quantum physics describes behavior at microscopic scales.
+
+Moon counts reflect the information included in the project and may change as new discoveries are confirmed.
